@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: yellowgreen;
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+header div {
+    background-color: yellowgreen;
+}
+
+header div img {
+    width: 150px;
+    height: 160px;
+    background-color: black;
+    border-radius: 20%;
+}
+
+
+
+
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+header nav ul li {
+    padding: 10px;
+    margin: 10px;
+    background-color: coral;
+    list-style: none;
+    border-radius: 20%;
+    
+}
+
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 10%;
+    
+}
+
+main {
+    padding: 20px;
+    background-color: violet;
+
+}
+ 
+section  {
+    display: flex;
+    background-color: springgreen;
+    text-indent: 10px;
+    
+       
+}
+
+div h2 {
+    padding-bottom: 20px;
+    
+
+}
+
+div p {
+    padding: 20px;
+    padding-bottom: 20px;
+    line-height: 1,5;
+
+}
+
+div h4 {
+    padding-bottom: 10px;
+    padding: 20px;
+
+}
+
+
+div h2 {
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+footer{
+    background-color: cornflowerblue;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section div h2 {
+    text-align: left;
+}
+footer div nav ul {
+    list-style: none;
+
+}
+
+footer div nav ul li {
+    padding: 10px; 
+    margin: 5px;
+    background-color: violet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#grid-item {
+    background-color: thistle;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    
+
+    
+}
+.container {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: tomato;
+    margin: 10px;
+   
+    
+}
+
+#grid-item img {
+    padding: 20px;
+    border-radius: 50%;
+    
+}
+.contenedorPersonajes {
+    border: 2px solid tomato;
+    background-color: tomato;
+    border-radius: 20%;
+
+}
+
+
+
